@@ -306,7 +306,7 @@ Contributions are welcome. Areas for improvement:
 
 ### Development Setup
 ```bash
-git clone <[repository-url](https://github.com/parhamsoltani/chebyshev_filter_designer.git)>
+git clone <https://github.com/parhamsoltani/chebyshev_filter_designer.git>
 cd chebyshev-filter-design
 pip install -r requirements.txt
 # Make your changes
