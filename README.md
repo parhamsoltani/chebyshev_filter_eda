@@ -1,4 +1,4 @@
-# Chebyshev Filter Design Tool
+<img width="5695" height="267" alt="image" src="https://github.com/user-attachments/assets/5200d225-c291-4982-9169-4a20f3bb7e76" /># Chebyshev Filter Design Tool
 
 A comprehensive Python-based tool for designing Chebyshev filters with multiple synthesis methods. This tool provides various circuit realization techniques for implementing Chebyshev filters in both passive (LC) and active configurations.
 
@@ -18,12 +18,14 @@ A comprehensive Python-based tool for designing Chebyshev filters with multiple 
 
 ## Overview
 
-This tool implements various classical and modern synthesis methods for Chebyshev filter design, originally based on MATLAB implementations. It's particularly useful for:
+This tool implements various classical and modern synthesis methods for Chebyshev filter design. In many situations, it is more important to have the approximation uniformly good across the entire passband. A filter that has this uniform approximating property is the Chebyshev filter. The magnitude response of the Chebyshev filter ripples between two values in the passband. The number of ripples in the passband depends on the order n of the filter. The amplitude of the ripple is a free parameter. It's particularly useful for:
 
 - RF/Microwave filter design
 - Analog circuit design education
 - Research in filter synthesis methods
 - Comparative analysis of different realization techniques
+
+For a lowpass filter, the magnitude function must go to zero as 𝜔→∞. Thus, the Chebyshev polynomials should be part of the denominator polynomials of the magnitude function of the filter, where 𝜖 is a free parameter that sets the ripple amplitude. By using the square of〖 𝜖𝑇〗_𝑛 (𝜔), both the numerator and the denominator of |𝐻(𝑗𝜔)|^2 are polynomials of 𝜔^2 and have positive values. Hence, we call a filter having a squared magnitude function a normalized low-pass Chebyshev filter (in short, Chebyshev filter) of order n.
 
 ## Features
 
