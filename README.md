@@ -1,4 +1,4 @@
-<img width="5695" height="267" alt="image" src="https://github.com/user-attachments/assets/5200d225-c291-4982-9169-4a20f3bb7e76" /># Chebyshev Filter Design Tool
+# Chebyshev Filter Design Tool
 
 A comprehensive Python-based tool for designing Chebyshev filters with multiple synthesis methods. This tool provides various circuit realization techniques for implementing Chebyshev filters in both passive (LC) and active configurations.
 
